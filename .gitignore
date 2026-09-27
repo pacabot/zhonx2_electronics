@@ -1,0 +1,6 @@
+*.bak
+*.bck
+*.dcm
+*-bak
+.DS_Store
+rescue-backup/

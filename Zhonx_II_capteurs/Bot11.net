@@ -1,0 +1,173 @@
+# EESchema Netlist Version 1.1 created  14/04/2012 13:53:26
+(
+ ( /4F649925 $noname  U2 FRAISAGE_ZHONX {Lib=FRAISAGE_ZHONX}
+  (    1 GND )
+ )
+ ( /4F64991F $noname  U1 FRAISAGE_ZHONX {Lib=FRAISAGE_ZHONX}
+  (    1 GND )
+ )
+ ( /4F5DC9AA $noname  P3 CONN_1 {Lib=CONN_1}
+  (    1 /EN_10 )
+ )
+ ( /4F5DC9A6 $noname  P5 CONN_1 {Lib=CONN_1}
+  (    1 /EN_5 )
+ )
+ ( /4F5DC9A4 $noname  P7 CONN_1 {Lib=CONN_1}
+  (    1 /EN_5 )
+ )
+ ( /4F5DC9A0 $noname  P6 CONN_1 {Lib=CONN_1}
+  (    1 /EN_10 )
+ )
+ ( /4F5DC99F $noname  P1 CONN_1 {Lib=CONN_1}
+  (    1 /EN_10 )
+ )
+ ( /4F5DC99C $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 /EN_5 )
+ )
+ ( /4F5DC95E $noname  P4 CONN_12 {Lib=CONN_12}
+  (    1 /5V )
+  (    2 /R_10 )
+  (    3 /R_5 )
+  (    4 /F_5 )
+  (    5 /C_D )
+  (    6 /EN_5 )
+  (    7 /EN_10 )
+  (    8 /C_G )
+  (    9 /F_10 )
+  (   10 /L_5 )
+  (   11 /L_10 )
+  (   12 GND )
+ )
+ ( /4F1162B3 $noname  P31 CONN_1 {Lib=CONN_1}
+  (    1 /F_5 )
+ )
+ ( /4F1162AE $noname  P30 CONN_1 {Lib=CONN_1}
+  (    1 /L_5 )
+ )
+ ( /4F116298 $noname  P29 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4F116295 $noname  P26 CONN_1 {Lib=CONN_1}
+  (    1 /5V )
+ )
+ ( /4F116293 $noname  P27 CONN_1 {Lib=CONN_1}
+  (    1 /5V )
+ )
+ ( /4F116290 $noname  P28 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4F115E29 $noname  P25 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4F115E24 $noname  P24 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4F115E22 $noname  P23 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4F115E20 $noname  P22 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4F115E1E $noname  P21 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4F115E13 $noname  P16 CONN_1 {Lib=CONN_1}
+  (    1 /5V )
+ )
+ ( /4F115E11 $noname  P17 CONN_1 {Lib=CONN_1}
+  (    1 /5V )
+ )
+ ( /4F115E10 $noname  P18 CONN_1 {Lib=CONN_1}
+  (    1 /5V )
+ )
+ ( /4F115E0E $noname  P19 CONN_1 {Lib=CONN_1}
+  (    1 /5V )
+ )
+ ( /4F115E0A $noname  P20 CONN_1 {Lib=CONN_1}
+  (    1 /5V )
+ )
+ ( /4F115B29 $noname  P9 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4F115B1D $noname  P8 CONN_1 {Lib=CONN_1}
+  (    1 /5V )
+ )
+ ( /4F115B1B $noname  P15 CONN_1 {Lib=CONN_1}
+  (    1 /R_5 )
+ )
+ ( /4F115B17 $noname  P14 CONN_1 {Lib=CONN_1}
+  (    1 /R_10 )
+ )
+ ( /4F115B15 $noname  P13 CONN_1 {Lib=CONN_1}
+  (    1 /C_D )
+ )
+ ( /4F115B11 $noname  P12 CONN_1 {Lib=CONN_1}
+  (    1 /F_10 )
+ )
+ ( /4F115B0F $noname  P11 CONN_1 {Lib=CONN_1}
+  (    1 /C_G )
+ )
+ ( /4F115B0B $noname  P10 CONN_1 {Lib=CONN_1}
+  (    1 /L_10 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ U2 1
+ P9 1
+ P21 1
+ P22 1
+ P23 1
+ P24 1
+ P25 1
+ P28 1
+ U1 1
+ P29 1
+ P4 12
+Net 2 "/L_5" "L_5"
+ P4 10
+ P30 1
+Net 3 "/F_5" "F_5"
+ P31 1
+ P4 4
+Net 4 "/L_10" "L_10"
+ P10 1
+ P4 11
+Net 5 "/C_G" "C_G"
+ P11 1
+ P4 8
+Net 6 "/F_10" "F_10"
+ P12 1
+ P4 9
+Net 7 "/C_D" "C_D"
+ P13 1
+ P4 5
+Net 8 "/R_10" "R_10"
+ P14 1
+ P4 2
+Net 9 "/R_5" "R_5"
+ P15 1
+ P4 3
+Net 10 "/5V" "5V"
+ P4 1
+ P17 1
+ P16 1
+ P27 1
+ P26 1
+ P8 1
+ P20 1
+ P19 1
+ P18 1
+Net 11 "/EN_10" "EN_10"
+ P1 1
+ P6 1
+ P3 1
+ P4 7
+Net 12 "/EN_5" "EN_5"
+ P2 1
+ P4 6
+ P7 1
+ P5 1
+}
+#End

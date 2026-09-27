@@ -1,0 +1,15 @@
+eeschema (2011-11-27 BZR 3249)-stable  >> Creation date: 26/12/2011 19:57:26
+
+#Cmp ( ordre = Référence )
+| P1         CONN_14X2   
+| U1         POLOLU_A4988
+| U2         POLOLU_A4988
+#End Cmp
+
+#Cmp ( ordre = Valeur )
+| CONN_14X2    P1        
+| POLOLU_A4988 U1        
+| POLOLU_A4988 U2        
+#End Cmp
+
+#End List
